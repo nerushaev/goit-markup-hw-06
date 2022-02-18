@@ -535,6 +535,7 @@ a {
 
 .footer-address-container {
 	margin-right: 70px;
+	flex-grow: 1;
 }
 
 .footer-icon-title {
@@ -800,7 +801,7 @@ a {
 	width: 30px;
 	height: 30px;
 	position: absolute;
-	top: 5px;
+	top: 8px;
 	right: 8px;
 	background-color: var(--first-title-color);
 	border: 1px solid rgba(0, 0, 0, 0.1);
@@ -829,7 +830,7 @@ a {
 	text-align: center;
 	letter-spacing: 0.03em;
 	color: var(--header-text-color);
-	margin-bottom: 30px;
+	margin-bottom: 12px;
 }
 
 .modal-input {
@@ -888,7 +889,6 @@ a {
 .checkbox-label {
 	font-size: 14px;
 	line-height: 1.71;
-
 	letter-spacing: 0.03em;
 }
 
@@ -897,6 +897,9 @@ a {
 	line-height: calc(14 / 12);
 	letter-spacing: 0.01em;
 	color: var(--benefits-text-color);
+
+	margin-bottom: 4px;
+	display: block;
 }
 
 .modal-btn {
@@ -926,7 +929,7 @@ a {
 
 .modal-icon-container {
 	position: relative;
-	margin-bottom: 28px;
+	margin-bottom: 10px;
 }
 
 .modal-icon {
